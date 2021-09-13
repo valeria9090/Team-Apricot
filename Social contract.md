@@ -13,4 +13,13 @@ Team Apricot has agreed on following and acting corresponding to the following p
 - The team will use separate git branches to develop separate features. For each branch, a pull request will be created in GitHub where at least one review of the new code will be required, as well as a test to see that the code compiles correctly, before it is allowed to merge it with the rest of the software.
 - Each team member is responsible for communicating to the rest of the team if their workload becomes overbearing.
 - Each team member is responsible for settling potential disagreements/conflicts in a mature and professional way.
+- The team will discuss issues/differences in opinions that arise. If it is not immediately resolved, the discussions will be put on a 5 min timer, and if it is not resolved by then the conflict will be put up for a vote.
 - The team will make sure to do everything in their power to finish deadlines before the actual day of the deadline.
+- The SCRUM master will be responsible for the following tasks:
+    - Make sure everyone follows the agreements under the sprints and social contract.
+    - Be available for questions and concerns every checkup meeting. Plan and resolve any conflict, role or task changes.
+- The product owner will be responsible for the following tasks:
+    - Communicate with the group on what the app is supposed to do.
+    - Involved in sprint planning and prioritization of tasks.
+    - Signing off on tasks being done.
+- Each team member is responsible for working actively on the assigned tasks each sprint.
