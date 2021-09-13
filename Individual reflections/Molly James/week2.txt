@@ -1,6 +1,5 @@
-﻿* what do I want to learn or understand better?
-* how can I help someone else, or the entire team, to learn something new?
-* what is my contribution towards the team’s use of Scrum?
-* what is my contribution towards the team’s deliveries?
+
 I want to learn how to plan and strategize a project
-I can help the team by being responsible with my workload and make myself available for my teammates. My contribution to the teams use of scrum is being a backup scrum master. My contribution to the teams deliveries is taking charge of the business model canvas and the project description.
+I can help the team by being responsible with my workload and make myself available for my teammates. 
+My contribution to the teams use of scrum is being a backup scrum master. My contribution to the teams deliveries is 
+taking charge of the business model canvas and the project description.
