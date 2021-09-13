@@ -1,6 +1,6 @@
 ﻿Walking app
 
-
+7/9-2021
 We all agreed on focus on a walking app. Sustainable goal nr 3: good health and well being
 Target audience: anyone who thinks they’re too old for pokemon go. Age over 10. 
 Premise: an app for people who like to get a bit more exercise. It gives you a target to walk to, take a pictures. Short/medium/long distance. The app randomizes a point and tells you to get there. When you’ve gotten there it saves and saves data. Achievements on how many spots you’ve found, distance. Targets anyone who wants to get a bit more exercise.
