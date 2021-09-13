@@ -1,0 +1,33 @@
+﻿Walking app
+
+
+We all agreed on focus on a walking app. Sustainable goal nr 3: good health and well being
+Target audience: anyone who thinks they’re too old for pokemon go. Age over 10. 
+Premise: an app for people who like to get a bit more exercise. It gives you a target to walk to, take a pictures. Short/medium/long distance. The app randomizes a point and tells you to get there. When you’ve gotten there it saves and saves data. Achievements on how many spots you’ve found, distance. Targets anyone who wants to get a bit more exercise.
+The team determined to work with android since it’s easier to work with. Since you take pictures,  tracks locations, walking data, time, we find it appropriate to make an app. 
+The person should take a picture of anything, themselves, nature, surroundings for memorabilia. The route is finished once you’ve taken the picture. You should use the app to take the picture.
+The reason why the group want to do this project is to encourage people to walk, the use of E-Scooters has discouraged people from walking. 
+
+
+Second priority: make an account. would be to add friends. We would have to make a server for that. “Social media”
+
+
+Scrum master: Ramza
+Scrum master backup: Molly
+Product owner: Daniel  
+
+
+The Business Model Canvas:
+
+
+Partner: potential partners could be facebook, twitter, google if we decide to use their log in services. 
+
+
+Key Activities: Platform development and maintenance
+Key Resources: Android Software Development Kit, Open streetmap(for now)
+Value propositions: free exercise, exercise encouragement, beautiful pictures
+Customer relationships: customer support
+Channels: emailing
+Customer segments: anyone who wants to get a bit more exercise. Android users
+Cost structure: human resources, platform development and maintenance
+Revenue streams: free
