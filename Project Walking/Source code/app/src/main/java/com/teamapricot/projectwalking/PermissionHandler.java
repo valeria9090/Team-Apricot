@@ -41,8 +41,9 @@ public class PermissionHandler {
         requestPermissionLauncher = activity.registerForActivityResult(new ActivityResultContracts.RequestPermission(), isGranted -> {
             // Set currentPermissionResult when a permission has been granted or denied
             try {
-                currentPermissionResultLock.tryLock();
-                currentPermissionResult = isGranted;
+                if (currentPermissionResultLock.tryLock()) {
+                    currentPermissionResult = isGranted;
+                }
             } finally {
                 currentPermissionResultLock.unlock();
             }
@@ -105,10 +106,10 @@ public class PermissionHandler {
                 waitForPermissionResult();
 
                 try {
-                    currentPermissionResultLock.tryLock()
-                    permissionResults.put(permission, currentPermissionResult);
-
-                    currentPermissionResult = null;
+                    if (currentPermissionResultLock.tryLock()) {
+                        permissionResults.put(permission, currentPermissionResult);
+                        currentPermissionResult = null;
+                    }
                 } finally {
                     currentPermissionResultLock.unlock();
                 }
