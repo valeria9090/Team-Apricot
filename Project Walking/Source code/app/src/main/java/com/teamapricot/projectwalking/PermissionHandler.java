@@ -140,9 +140,10 @@ public class PermissionHandler {
     private void waitForPermissionResult() {
         while(true) {
             try {
-                currentPermissionResultLock.tryLock();
-                if (currentPermissionResult != null) {
-                    break;
+                if (currentPermissionResultLock.tryLock()) {
+                    if (currentPermissionResult != null) {
+                        break;
+                    }
                 }
             } finally {
                 currentPermissionResultLock.unlock();
