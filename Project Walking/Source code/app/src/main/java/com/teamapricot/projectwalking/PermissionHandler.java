@@ -104,11 +104,14 @@ public class PermissionHandler {
 
                 waitForPermissionResult();
 
-                currentPermissionResultLock.tryLock();
-                permissionResults.put(permission, currentPermissionResult);
-                
-                currentPermissionResult = null;
-                currentPermissionResultLock.unlock();
+                try {
+                    currentPermissionResultLock.tryLock()
+                    permissionResults.put(permission, currentPermissionResult);
+
+                    currentPermissionResult = null;
+                } finally {
+                    currentPermissionResultLock.unlock();
+                }
             }
 
             return permissionResults;
