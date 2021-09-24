@@ -19,8 +19,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         createChannel();
         notifyBtn = findViewById(R.id.notify_button);
-
-        //button displaying notification when clicked
         notifyBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -29,10 +27,12 @@ public class MainActivity extends AppCompatActivity {
                 GetNotified.addNotification("notify_btn", "notice", "notify_button",1); }
         });
     }
-    //creating the notification_channel for higher versions
+    /**
+     * description: creating the notification_channel for higher versions
+     */
     public void createChannel(){
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannel channel = new NotificationChannel("notify_button", "notify_btn", NotificationManager.IMPORTANCE_DEFAULT);
+            NotificationChannel channel = new NotificationChannel("notify_button", "get_notify", NotificationManager.IMPORTANCE_DEFAULT);
             NotificationManager manager = getSystemService(NotificationManager.class);
             manager.createNotificationChannel(channel);
         }
